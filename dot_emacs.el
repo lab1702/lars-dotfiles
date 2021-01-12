@@ -8,6 +8,13 @@
 (package-initialize)
 
 
+;; Theme
+(custom-set-variables
+ '(custom-enabled-themes (quote (deeper-blue))))
+(custom-set-faces
+ )
+
+
 ;; Inhibit Startup Screen
 ;;
 (setq inhibit-splash-screen t)
